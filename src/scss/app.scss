@@ -1,0 +1,45 @@
+.header {
+  padding: 25px 10px;
+  background: #295e6c;
+
+  &__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo__img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+  }
+  .menu__btn {
+    display: none;
+  }
+
+  .menu__list {
+    display: flex;
+  }
+
+  .menu__list-item {
+    color: #fff;
+  }
+  .menu__list-item + .menu__list-item {
+    margin-left: 32px;
+  }
+
+  .menu__list-link {
+    padding: 0 9px 9px;
+    font-size: 18px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.6px;
+    transition: all 0.5s;
+    &:hover {
+      border-bottom: 1px solid #fcbb08;
+    }
+  }
+}
